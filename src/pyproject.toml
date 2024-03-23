@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "SemanticSearch"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Dolgov <saddolgov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.106.0"
+uvicorn = "^0.25.0"
+elasticsearch = "^8.12.1"
+scikit-learn = "^1.4.1.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
